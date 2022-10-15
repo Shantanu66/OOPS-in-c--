@@ -1,3 +1,3 @@
 # Description
 
-> All of my 'oops implementations' in c++
+> All of my oops implementations in c++
