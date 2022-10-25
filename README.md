@@ -1,3 +1,3 @@
 # Description
 
-> All of my `oops implementations` done in cpp
+> All of my `oops implementations` done in cpp.
