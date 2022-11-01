@@ -110,8 +110,5 @@ public:
     Student *s3=new Student;
     s3->display();
     Student s4(1929100);
-    s4.display();
-    Student *s5=new Student(11278172,43);
-    s5->display();
-    return 0;
+    
 }*/
