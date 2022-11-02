@@ -108,7 +108,6 @@ public:
     Student s2;
     s2.display();
     Student *s3=new Student;
-    s3->display();
-    Student s4(1929100);
+    
     
 }*/
