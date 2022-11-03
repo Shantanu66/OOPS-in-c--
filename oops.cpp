@@ -111,3 +111,49 @@ public:
     
     
 }*/
+/*class Student
+{
+    int age;
+public:
+    int Roll;
+    ///default user created constructor
+    Student()
+    {
+        cout<<"Default Constructor called"<<endl;
+    }
+    ///parameterized user created constructor
+    Student(int r)
+    {
+        Roll=r;
+        cout<<"parameterized constructor called"<<endl;
+    }
+    Student(int Roll)
+    {
+        this->Roll=Roll;   //here it is mandatory because we have to diffrentiate between
+                           //parameter roll number and property roll number
+        cout<<"parameterized constructor called"<<endl;
+    }
+    Student(int r,int a)
+    {
+        this->Roll=r;  //optional
+        this->age=a;   //optional
+        cout<<"Parameterized constructor 2 called"<<endl;
+        cout<<"This:"<<this<<endl;
+    }
+    void display()
+    {
+        cout<<age<<" "<<Roll<<endl;
+    }
+    int getAge()
+    {
+        return age;
+    }
+    void setAge(int a)
+    {
+        age=a;
+    }
+    ~Student()
+    {
+        cout<<"Destructor called"<<endl;
+    }
+};*/
