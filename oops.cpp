@@ -157,3 +157,22 @@ public:
         cout<<"Destructor called"<<endl;
     }
 };*/
+/*int main()
+{
+    Student S(1929174);
+    S.display();
+
+    /*Student S1(10,100);
+    cout<<"Address of S1:"<<&S1<<endl;
+    Student s1;
+    s1.display();
+    Student s2;
+    s2.display();
+    Student *s3=new Student;
+    s3->display();
+    Student s4(1929100);
+    s4.display();
+    Student *s5=new Student(11278172,43);
+    s5->display();
+    return 0;
+}*/
