@@ -176,3 +176,19 @@ public:
     s5->display();
     return 0;
 }*/
+///copy constructor
+/*int main()
+{
+    Student s1(10,100);  //parameterized cons
+    cout<<"S1:";
+    s1.display();
+    Student *s2=new Student(s1);  //copy cons inbuilt
+    cout<<"S2:";
+    s2->display();
+    Student s3(*s2);
+    cout<<"S3:";
+    s3.display();
+
+
+    return 0;
+}*/
