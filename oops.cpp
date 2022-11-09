@@ -192,3 +192,20 @@ public:
 
     return 0;
 }*/
+///copy assignment operator
+/*int main()
+{
+    Student s1(10,100);
+    cout<<"s1:";
+    s1.display();
+    Student s2(20,200);
+    s2=s1;
+    cout<<"s2:";
+    s2.display();
+    Student *s3=new Student(90,230);
+    *s3=s2;
+    cout<<"s3:";
+    s3->display();
+    delete s3;
+    return 0;
+}*/
