@@ -209,3 +209,34 @@ public:
     delete s3;
     return 0;
 }*/
+///FRACTION CLASS
+/*class Fraction
+{
+    int numerator;
+    int denominator;
+public:
+    Fraction()
+    {
+        cout<<"Default constructor"<<endl;
+    }
+    Fraction(int numerator,int denominator)
+    {
+        this->numerator=numerator;      //mandatory
+        this->denominator=denominator;
+    }
+    void PrintFraction()
+    {
+        cout<<"Fraction is:"<<endl;
+        cout<<this->numerator<<"/"<<this->denominator<<endl;
+    }
+    void add(Fraction const &f2)  //to prevent extra space and time complexity we pass
+                                  //by reference
+    {
+        int lcm = denominator*f2.denominator; //optional this'
+        int x = lcm/denominator;
+        int y = lcm/f2.denominator;
+        int num=x*numerator + y*f2.numerator;
+        this->numerator=num;
+        this->denominator=lcm;
+        simplify();
+    }
