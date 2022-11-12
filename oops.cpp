@@ -240,3 +240,25 @@ public:
         this->denominator=lcm;
         simplify();
     }
+    void simplify()
+    {
+        //inbuilt fuction for gcd:__gcd(a,b);
+        int gcd=1;
+        int j=min(this->numerator,this->denominator);
+        for(int i=1;i<=j;i++)
+        {
+            if(numerator%i==0 && denominator%i==0)
+            {
+                gcd=i;
+            }
+        }
+        numerator/=gcd;
+        denominator/=gcd;
+        display();
+    }
+    void display()
+    {
+        cout<<"Addition of fraction:"<<endl;
+        cout<<numerator<<"/"<<denominator<<endl;
+    }
+};
