@@ -262,3 +262,18 @@ public:
         cout<<numerator<<"/"<<denominator<<endl;
     }
 };
+int main()
+{
+    Fraction f0;
+    Fraction f1(10,2);
+    Fraction f2(20,4);
+    f1.PrintFraction();
+    f2.PrintFraction();
+    f1.add(f2);
+    Fraction *f3=new Fraction(f2);
+    Fraction *f4=new Fraction(34,12);
+    f3->PrintFraction();
+    f4->PrintFraction();
+    f3->add(*f4);
+    return 0;
+}*/
