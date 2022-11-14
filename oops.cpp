@@ -277,3 +277,39 @@ int main()
     f3->add(*f4);
     return 0;
 }*/
+///COMPLEX NUMBER CLASS
+/*class Complex
+{
+    int real;
+    int imaginary;
+public:
+    Complex(int real,int imaginary)
+    {
+        this->real=real;
+        this->imaginary=imaginary;
+    }
+    void print()
+    {
+        cout<<"Complex Number:"<<endl;
+        cout<<real<<"+"<<imaginary<<"i"<<endl;
+    }
+    void Addedprint()
+    {
+        cout<<"Added Complex Number:"<<endl;
+        cout<<real<<"+"<<imaginary<<"i"<<endl;
+    }
+    Complex operator+(Complex const &c2)
+    {
+        int realadd=real+c2.real;
+        int imaginaryadd=imaginary+c2.imaginary;
+        Complex cnew(realadd,imaginaryadd);
+        return cnew;
+        //cnew.Addedprint();
+    }
+    Complex add(Complex const &c2)
+    {
+        int realadd=real+c2.real;
+        int imaginaryadd=imaginary+c2.imaginary;
+    }
+
+};
