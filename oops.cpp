@@ -312,4 +312,16 @@ public:
         int imaginaryadd=imaginary+c2.imaginary;
     }
 
+
 };
+int main()
+{
+    Complex c1(3,4);
+    Complex c2(8,5);
+    c1.print();
+    c2.print();
+    //c1.add(c2);
+    Complex c4=c1+c2;
+    c4.Addedprint();
+    return 0;
+}
