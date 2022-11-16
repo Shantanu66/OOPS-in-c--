@@ -325,3 +325,18 @@ int main()
     c4.Addedprint();
     return 0;
 }
+///Shallow and deep copies and our own copy constructor creation
+/*class student
+{
+    int age;
+
+public:
+    char *name;
+    //own copy constructor creation
+    student(student const &s)              //inbuilt copy constructor code
+    {
+        this->age=s.age;
+        //this->name=s.name;                     //shallow copy
+        this->name=new char[strlen(s.name)+1];   //deep copy
+        strcpy(this->name,s.name);
+    }
