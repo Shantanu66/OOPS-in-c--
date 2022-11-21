@@ -354,3 +354,19 @@ public:
         cout<<name<<" "<<age<<endl;
     }
 };
+int main()
+{
+    char a[]="abcd";
+    student s1(20,a);
+    s1.display();
+    ///deep copy demo
+    /a[3]='e';
+    student s2(32,a);
+    s2.display();
+    s1.display();
+    ///our own copy constructor demo
+    student s2(s1) ;
+    s2.name[0]='z';
+    s2.display();
+    s1.display();
+}*/
