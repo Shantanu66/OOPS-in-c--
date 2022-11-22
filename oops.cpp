@@ -370,3 +370,25 @@ int main()
     s2.display();
     s1.display();
 }*/
+///Initialization List
+/*class student
+{
+public:
+    int age;
+    const int roll;
+    int &x;
+    student(int roll,int age):roll(roll),age(age),x(this->age)
+    {
+        //this->roll=roll; //wrong as this has already been allocated by the garbage value
+    }
+    void display()
+    {
+        cout<<age<<" "<<roll<<" "<<x;
+    }
+};
+int main()
+{
+    student s1(3223,45);
+    s1.display();
+
+}*/
