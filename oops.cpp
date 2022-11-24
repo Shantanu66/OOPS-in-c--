@@ -413,3 +413,21 @@ int main()
 		{
 			return numerator;
 		}
+        int getDenominator() const
+		{
+			return denominator;
+		}
+
+		void setNumerator(int n)
+        {
+			numerator = n;
+		}
+
+		void setDenominator(int d) {
+			denominator = d;
+		}
+
+		void print()
+        {
+			cout << this -> numerator << " / " << denominator << endl;
+		}
