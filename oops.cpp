@@ -459,3 +459,19 @@ int main()
 			f3.simplify();
 			return f3;
 		}
+        ///operator overloading
+		Fraction operator+(Fraction const &f2) const
+		 {
+			int lcm = denominator * f2.denominator;
+			int x = lcm / denominator;
+			int y = lcm / f2.denominator;
+
+			int num = x * numerator + (y * f2.numerator);
+
+			//numerator = num;
+			//denominator = lcm;
+			Fraction f3(num,lcm);    ///para cons
+			f3.simplify();
+			return f3;
+		}
+
