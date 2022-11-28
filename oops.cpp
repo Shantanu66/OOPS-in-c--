@@ -474,4 +474,22 @@ int main()
 			f3.simplify();
 			return f3;
 		}
+        Fraction multiply(Fraction const &f2)
+        {
+			this->numerator = numerator * f2.numerator;
+			this->denominator = denominator * f2.denominator;
+			//Fraction fnew(numerator,denominator);
+
+			simplify();
+			return *this;
+		}
+		Fraction operator*(Fraction const &f2) const
+        {
+			int num = numerator * f2.numerator;
+			int den = denominator * f2.denominator;
+			Fraction fnew(num,den);
+
+			fnew.simplify();
+			return fnew;
+		}
 
