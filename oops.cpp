@@ -492,4 +492,25 @@ int main()
 			fnew.simplify();
 			return fnew;
 		}
+        bool operator==(Fraction const &f2) const
+		{
+		    return(this->numerator==f2.numerator && this->denominator==f2.denominator);
+		}
+		//pre-increment
+		Fraction& operator++()
+		{
+		    numerator+=denominator;
+		    simplify();
+		    return *this;
+		}
+		//post-increment
+		Fraction operator++(int)
+		{
+		    Fraction fnew(this->numerator,this->denominator);
+		    fnew.simplify();
+		    this->numerator+=this->denominator;
+		    simplify();
+		    return fnew;
+
+		}
 
