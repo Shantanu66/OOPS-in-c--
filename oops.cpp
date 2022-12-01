@@ -527,6 +527,20 @@ int main()
 			simplify();
 			return *this;
 		}
-
+        
 };
+int main()
+{
+    Fraction f1(10,2);
+    Fraction f2(15,4);
+    Fraction f11=f1++;
+    Fraction f3=f1.add(f2);
+    Fraction f4=f3+f2;
+    Fraction f5=f1.multiply(f2);
+    Fraction f6=f5*f1;
+    Fraction f7(1,5);
+    Fraction f8(1,5);
+    Fraction f9=++f8;
+    Fraction f10=++(++f1);
+
 
