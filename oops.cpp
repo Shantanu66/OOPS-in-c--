@@ -542,5 +542,21 @@ int main()
     Fraction f8(1,5);
     Fraction f9=++f8;
     Fraction f10=++(++f1);
+    
+    f1.print();
+    f2.print();
+    f3.print();
+    f4.print();
+    cout<<"Multiplication:"<<endl;
+    f5.print();
+    cout<<"Multiplication using operator overloading:"<<endl;
+    f6.print();
+    cout<<"Equal or not?"<<endl;
+    f7.print();
+    f8.print();
+    if(f7==f8)
+    {
+        cout<<"Equal"<<endl;
+    }
 
 
