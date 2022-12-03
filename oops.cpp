@@ -558,5 +558,20 @@ int main()
     {
         cout<<"Equal"<<endl;
     }
+    else cout<<"Not Equal"<<endl;
+    //cout<<"Increment:"<<endl;
+    f9.print();
+    f1.print();
+    ++(++f1);
+    f1.print();
+    f10.print();
+    cout<<"Post increment:"<<endl;
+    f11.print();
+    f1.print();
+    cout<<"+=:"<<endl;
+    f1+=f2;
+    f1.print();
+
+}*/
 
 
