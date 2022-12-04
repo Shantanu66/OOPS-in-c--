@@ -573,5 +573,18 @@ int main()
     f1.print();
 
 }*/
+///Dynamic Array(Vector implementation)
+/*class DynamicArray
+{
+    int *data;
+    int capacity;
+    int NextIndex;
+public:
+    DynamicArray()
+    {
+        data=new int[5];
+        capacity=5;
+        NextIndex=0;
+    }
 
 
