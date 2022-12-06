@@ -586,5 +586,28 @@ public:
         capacity=5;
         NextIndex=0;
     }
+        DynamicArray(DynamicArray const &d2)
+    {
+        this->NextIndex=d2.NextIndex;
+        this->capacity=d2.capacity;
+        this->data=new int[d2.capacity];
+        for(int i=0;i<d2.NextIndex;i++)
+        {
+            this->data[i]=d2.data[i];
+        }
+    }
+    int getCapacity() const
+    {
+        cout<<"Length:"<<endl;
+        cout<<capacity<<endl;
+    }
+    void print() const
+    {
+        for(int i=0;i<NextIndex;i++)
+        {
+            cout<<data[i]<<" ";;
+        }
+        cout<<endl;
+    }
 
 
