@@ -609,5 +609,24 @@ public:
         }
         cout<<endl;
     }
+    void add(int element)
+    {
+        data[NextIndex]=element;
+        NextIndex++;
+        if(NextIndex==capacity)
+        {
+            int *NewData=new int[capacity*2];
+            for(int i=0;i<capacity;i++)
+            {
+                NewData[i]=data[i];
+            }
+            delete []data;
+            data=NewData;
+            capacity*=2;
+
+        }
+        data[NextIndex]=element;
+        NextIndex++;
+    }
 
 
