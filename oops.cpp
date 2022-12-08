@@ -628,5 +628,16 @@ public:
         data[NextIndex]=element;
         NextIndex++;
     }
+    int getelement(int i) const
+    {
+        if(i>=0 && i<NextIndex)
+        {
+            cout<<data[i]<<endl;;
+        }
+        else
+        {
+            cout<<"Invalid Index"<<endl;  //return -1
+        }
+    }
 
 
