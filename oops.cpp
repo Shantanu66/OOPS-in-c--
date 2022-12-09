@@ -639,5 +639,20 @@ public:
             cout<<"Invalid Index"<<endl;  //return -1
         }
     }
+    void addelement(int i,int element)
+    {
+        if(i>=0 && i<NextIndex)
+        {
+            data[i]=element;
+        }
+        else if(i==NextIndex)
+        {
+            add(element);
+        }
+        else
+        {
+            cout<<"Invalid Index!"<<endl;
+        }
+    }
 
 
