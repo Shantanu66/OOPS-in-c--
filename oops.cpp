@@ -654,5 +654,17 @@ public:
             cout<<"Invalid Index!"<<endl;
         }
     }
+    DynamicArray operator=(DynamicArray const &d2)
+    {
+        this->NextIndex=d2.NextIndex;
+        this->capacity=d2.capacity;
+        this->data=new int[d2.capacity];
+        for(int i=0;i<d2.NextIndex;i++)
+        {
+            this->data[i]=d2.data[i];
+        }
+
+    }
+};
 
 
