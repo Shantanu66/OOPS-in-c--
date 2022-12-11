@@ -666,5 +666,30 @@ public:
 
     }
 };
+int main()
+{
+    DynamicArray d1,d3;
+    d1.add(3);
+    d1.add(10);
+    d1.add(5);
+    d1.add(6);
+    d1.add(7);
+    d1.print();
+    DynamicArray d2(d1);
+    d3=d1;
+    d2.addelement(0,8);
+    d1.print();
+    d2.print();
+    d3.addelement(0,4);
+    d3.print();
+    d1.print();
+
+    cout<<"Search for element at index"<<endl;
+    d1.getelement(0);
+    cout<<"Insert element at desired index:"<<endl;
+    d1.addelement(0,5);
+    d1.getCapacity();
+}*/
+
 
 
