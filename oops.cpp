@@ -689,7 +689,6 @@ int main()
     cout<<"Insert element at desired index:"<<endl;
     d1.addelement(0,5);
     d1.getCapacity();
-    d2.getCapacity();
 }*/
 
 
