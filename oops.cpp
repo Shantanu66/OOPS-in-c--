@@ -684,7 +684,11 @@ int main()
     d3.print();
     d1.print();
 
-    
+    cout<<"Search for element at index"<<endl;
+    d1.getelement(0);
+    cout<<"Insert element at desired index:"<<endl;
+    d1.addelement(0,5);
+    d1.getCapacity();
 }*/
 
 
