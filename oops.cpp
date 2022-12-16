@@ -690,6 +690,24 @@ int main()
     d1.addelement(0,5);
     d1.getCapacity();
 }*/
+///Dynamic Memory Allocation
+/*int main()
+{
+    cout<<"Enter number of elements:"<<endl;
+    int n;
+    cin>>n;
+    int *ar=new int[n];
+    for(int i=0;i<n;i++)
+    {
+        cin>>ar[i];
+    }
+    delete []ar;
+    for(int i=0;i<n;i++)
+    {
+        cout<<ar[i]<< " ";
+    }
+
+}*/
 
 
 
