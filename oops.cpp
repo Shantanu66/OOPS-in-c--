@@ -708,6 +708,43 @@ int main()
     }
 
 }*/
+///Dynamic Memory Allocation(2D array)
+/*int main()
+{
+    int m,n;
+    cin>>m>>n;
+    int** p=new int*[m];
+    for(int i=0;i<m;i++)
+    {
+        p[i]=new int[n];
+        for(int j=0;j<n;j++)
+        {
+            cin>>p[i][j];
+        }
+    }
+    //p[1][2]=99;
+    for(int i=0;i<m;i++)
+    {
+        for(int j=0;j<n;j++)
+        {
+            cout<<p[i][j]<<" ";
+        }
+        cout<<endl;
+    }
+    for(int i=0;i<m;i++)      //remember to delete
+    {
+        delete []p[i];
+    }
+    delete []p;
+
+    return 0;
+}*/
+/*int main()
+{
+    int ar[]={1,2,3,4,5,6};
+    int s=sizeof(ar)/sizeof(ar[0]);
+    cout<<s<<endl;
+}*/
 
 
 
