@@ -745,6 +745,24 @@ int main()
     int s=sizeof(ar)/sizeof(ar[0]);
     cout<<s<<endl;
 }*/
+///Swastika(pattern)
+/*void Swastika(int n)
+{
+    int k=((n+1)/2);
+    for(int i=1;i<=((n+1)/2)-1;i++)
+    {
+        cout<<"*";
+        for(int i=1;i<=((n+1)/2)-2;i++)
+        {
+            cout<<" ";
+        }
+        for(int j=1;j<=k;j++)
+        {
+            cout<<"*";
+        }
+        cout<<endl;
+        k=1;
+    }
 
 
 
