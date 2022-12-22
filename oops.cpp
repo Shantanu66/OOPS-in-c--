@@ -763,6 +763,48 @@ int main()
         cout<<endl;
         k=1;
     }
+    for(int i=1;i<=n;i++)
+    {
+        cout<<"*";
+    }
+    cout<<endl;
+    for(int i=1;i<=((n+1)/2)-2;i++)
+    {
+        for(int i=1;i<=((n+1)/2)-1;i++)
+        {
+            cout<<" ";
+        }
+        for(int i=1;i<=1;i++)
+        {
+            cout<<"*";
+        }
+        for(int i=1;i<=((n+1)/2)-2;i++)
+        {
+            cout<<" ";
+        }
+        for(int i=1;i<=1;i++)
+        {
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+    for(int k=0;k<=((n+1)/2)-1;k++)
+    {
+        cout<<"*";
+    }
+    for(int i=1;i<=((n+1)/2)-2;i++)
+    {
+        cout<<" ";
+    }
+    for(int i=1;i<=1;i++)
+    {
+        cout<<"*";
+    }
+}
+int main()
+{
+    Swastika(7);
+}*/
 
 
 
