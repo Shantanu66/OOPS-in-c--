@@ -805,6 +805,30 @@ int main()
 {
     Swastika(7);
 }*/
+///INHERITANCE
+/*class Vehicle {
+	private :
+		int maxSpeed;
+
+	protected :
+		int numTyres;
+
+	public :
+		string color;
+
+		//Vehicle(){
+		  // cout<<"Vehicle default constructor"<<endl;
+		//}
+
+		Vehicle(int z){
+           cout<<"Vehicle parameterised constructor"<<endl;
+		   maxSpeed = z;
+		}
+		~Vehicle(){
+		   cout<<"Vehicle destructor"<<endl;
+		}
+
+};
 
 
 
