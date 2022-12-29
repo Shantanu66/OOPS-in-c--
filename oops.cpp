@@ -829,6 +829,24 @@ int main()
 		}
 
 };
+class Car : public Vehicle{
+   public:
+       int numGears;
+
+        Car(int x,int y): Vehicle(x) {
+         numGears = y;
+          cout<<"Car parameterised construtor"<<endl;
+        }
+        ~Car(){
+           cout<<"Car destructor"<<endl;
+        }
+       void print(){
+           cout<<"Num Tyres : "<<numTyres<<endl;
+           cout<<"Color : "<<color<<endl;
+           cout<<"Num Gears :"<<numGears<<endl;
+          // cout<<"Max speed : "<<maxSpeed<endl;
+       }
+};
 
 
 
