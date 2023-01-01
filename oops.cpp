@@ -840,12 +840,7 @@ class Car : public Vehicle{
         ~Car(){
            cout<<"Car destructor"<<endl;
         }
-       void print(){
-           cout<<"Num Tyres : "<<numTyres<<endl;
-           cout<<"Color : "<<color<<endl;
-           cout<<"Num Gears :"<<numGears<<endl;
-          // cout<<"Max speed : "<<maxSpeed<endl;
-       }
+       
 };
 
 
