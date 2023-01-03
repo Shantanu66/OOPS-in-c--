@@ -846,6 +846,16 @@ class Car : public Vehicle{
            cout<<"Num Gears :"<<numGears<<endl;
           // cout<<"Max speed : "<<maxSpeed<endl;
        }
+       
+};
+class HondaCity:public Car{
+   public:
+       HondaCity(int x,int y):Car(x,y) {
+          cout<<"HondaCity constructor"<<endl;
+       }
+       ~HondaCity(){
+           cout<<"HondaCity destructor"<<endl;
+       }
 };
 
 
