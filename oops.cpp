@@ -853,9 +853,7 @@ class HondaCity:public Car{
        HondaCity(int x,int y):Car(x,y) {
           cout<<"HondaCity constructor"<<endl;
        }
-       ~HondaCity(){
-           cout<<"HondaCity destructor"<<endl;
-       }
+       
 };
 
 
