@@ -857,6 +857,20 @@ class HondaCity:public Car{
            cout<<"HondaCity destructor"<<endl;
        }
 };
+int main() {
+   // Vehicle v;
+    //v.color = "Blue";
+    //v.maxSpeed = 4;
+    //v.numTyres = 4;
+
+    HondaCity h(4,5);
+    //Car c(5);
+    //c.color = "Black";
+    //c.numTyres = 4;
+   // c.numGears = 5;
+
+	return 0;
+}*/
 
 
 
