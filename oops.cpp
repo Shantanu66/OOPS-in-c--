@@ -872,7 +872,23 @@ int main() {
 	return 0;
 }*/
 ///MULTIPLE INHERITANCE
+/*class Teacher
+{
 
+   public:
+       Teacher()
+       {
+           cout<<"Teacher Constructor"<<endl;
+       }
+       string name;
+       int age;
+
+       void print()
+       {
+         cout<<"teacher"<<endl;
+       }
+
+};
 
 
 
