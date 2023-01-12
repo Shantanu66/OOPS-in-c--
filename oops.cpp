@@ -883,11 +883,7 @@ int main() {
        string name;
        int age;
 
-       void print()
-       {
-         cout<<"teacher"<<endl;
-       }
-
+       
 };
 
 
