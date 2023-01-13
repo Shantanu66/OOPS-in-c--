@@ -890,7 +890,19 @@ int main() {
        }
 
 };
-
+class Student
+{
+   public:
+       Student()
+       {
+           cout<<"Student Constructor"<<endl;
+       }
+       string name;
+       void print()
+       {
+          cout<<"Student"<<endl;
+       }
+};
 
 
 
