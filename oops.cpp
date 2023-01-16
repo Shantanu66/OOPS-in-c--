@@ -903,19 +903,7 @@ class Student
           cout<<"Student"<<endl;
        }
 };
-class Student2
-{
-   public:
-       Student()
-       {
-           cout<<"Student Constructor 2"<<endl;
-       }
-       string name;
-       void print()
-       {
-          cout<<"Student"<<endl;
-       }
-};
+
 
 
 
