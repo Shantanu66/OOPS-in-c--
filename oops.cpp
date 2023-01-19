@@ -911,15 +911,6 @@ public:
        cout<<"TA"<<endl;
     }
 };
-int main()
-{
-    TA a;
-    a.print();
-    a.Teacher::name = "abcd";
-    a.Student::print();
-
-   return 0;
-}*/
 
 
 
