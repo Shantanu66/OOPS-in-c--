@@ -923,6 +923,38 @@ int main()
     b.Student::print();
    return 0;
 }*/
+///HYBRID INHERITANCE
+///Diamond Prob
+/*class Vehicle
+{
+	private :
+		int maxSpeed;
+
+	protected :
+		int numTyres;
+
+	public :
+		string color;
+
+		//Vehicle(){
+		   //cout<<"Vehicle default constructor"<<endl;
+		//}
+		Vehicle(int z)
+		{
+           cout<<"Vehicle parameterised constructor "<<z<<endl;
+		   maxSpeed = z;
+		}
+		void print()
+		{
+            cout<<"Vehicle"<<endl;
+		}
+		~Vehicle()
+		{
+		   cout<<"Vehicle destructor"<<endl;
+		}
+
+};
+
 
 
 
