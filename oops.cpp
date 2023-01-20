@@ -944,14 +944,7 @@ int main()
            cout<<"Vehicle parameterised constructor "<<z<<endl;
 		   maxSpeed = z;
 		}
-		void print()
-		{
-            cout<<"Vehicle"<<endl;
-		}
-		~Vehicle()
-		{
-		   cout<<"Vehicle destructor"<<endl;
-		}
+		
 
 };
 
