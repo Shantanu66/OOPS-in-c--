@@ -948,7 +948,10 @@ int main()
 		{
             cout<<"Vehicle"<<endl;
 		}
-		
+		~Vehicle()
+		{
+		   cout<<"Vehicle destructor"<<endl;
+		}
 
 };
 
